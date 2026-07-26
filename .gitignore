@@ -1,0 +1,48 @@
+# ==========================
+# Python
+# ==========================
+venv/
+backend/venv/
+.venv/
+env/
+ENV/
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Python caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==========================
+# Node
+# ==========================
+node_modules/
+dist/
+build/
+
+# ==========================
+# VS Code / IDE
+# ==========================
+.vscode/
+.idea/
+
+# ==========================
+# macOS
+# ==========================
+.DS_Store
+
+# ==========================
+# Logs
+# ==========================
+*.log
